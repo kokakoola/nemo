@@ -5,6 +5,7 @@
   // '.js><\/script>')
   // </script>
   <script src="javascripts/vendor/jquery.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 
   <script src="javascripts/foundation/foundation.js"></script>
   
@@ -37,15 +38,22 @@
   <script src="javascripts/foundation/foundation.tooltips.js"></script>
   
   <script src="javascripts/foundation/foundation.topbar.js"></script>
-  
+
+  <script src="javascripts/Raptorize-Kit/jquery.raptorize.1.0.js"></script>
   
   <script>
    //     $(window).load(function() {
    // $('#featured').orbit();
    //   });
-$("#yourSlider").append('<li><img src="url_of_the_image" /></li>');
-    $(document).foundation();
 
+    $(document).foundation('orbit', {
+      slide_number: false,
+       bullets: false, 
+       timer: false
+    });
+    $(window).load(function() {
+      $('#clickable').raptorize();
+    });
   </script>
 
     <!-- jQuery library - Please load it from Google API's -->
