@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="ng-ico-"] {
+*/
+.ng-ico-fly, .ng-ico-shield, .ng-ico-arrow-up, .ng-ico-tag, .ng-ico-group, .ng-ico-bubble, .ng-ico-direction, .ng-ico-art, .ng-ico-book, .ng-ico-flower, .ng-ico-img, .ng-ico-chart, .ng-ico-ng, .ng-ico-search, .ng-ico-arrow-down, .ng-ico-arrow-right, .ng-ico-arrow-down-2, .ng-ico-arrow-up-2, .ng-ico-arrow-left, .ng-ico-arrow-left-2, .ng-ico-arrow-right-2, .ng-ico-arrow-left-3, .ng-ico-arrow-down-3, .ng-ico-arrow-up-3, .ng-ico-arrow-right-3, .ng-ico-codetag {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.ng-ico-fly:before {
+	content: "\e000";
+}
+.ng-ico-shield:before {
+	content: "\e001";
+}
+.ng-ico-arrow-up:before {
+	content: "\e002";
+}
+.ng-ico-tag:before {
+	content: "\e003";
+}
+.ng-ico-group:before {
+	content: "\e004";
+}
+.ng-ico-bubble:before {
+	content: "\e005";
+}
+.ng-ico-direction:before {
+	content: "\e006";
+}
+.ng-ico-art:before {
+	content: "\e007";
+}
+.ng-ico-book:before {
+	content: "\e008";
+}
+.ng-ico-flower:before {
+	content: "\e009";
+}
+.ng-ico-img:before {
+	content: "\e00a";
+}
+.ng-ico-chart:before {
+	content: "\e00b";
+}
+.ng-ico-ng:before {
+	content: "\e00d";
+}
+.ng-ico-search:before {
+	content: "\e00e";
+}
+.ng-ico-arrow-down:before {
+	content: "\e00f";
+}
+.ng-ico-arrow-right:before {
+	content: "\e010";
+}
+.ng-ico-arrow-down-2:before {
+	content: "\e011";
+}
+.ng-ico-arrow-up-2:before {
+	content: "\e012";
+}
+.ng-ico-arrow-left:before {
+	content: "\e013";
+}
+.ng-ico-arrow-left-2:before {
+	content: "\e014";
+}
+.ng-ico-arrow-right-2:before {
+	content: "\e015";
+}
+.ng-ico-arrow-left-3:before {
+	content: "\e016";
+}
+.ng-ico-arrow-down-3:before {
+	content: "\e017";
+}
+.ng-ico-arrow-up-3:before {
+	content: "\e018";
+}
+.ng-ico-arrow-right-3:before {
+	content: "\e019";
+}
+.ng-ico-codetag:before {
+	content: "\e00c";
+}
