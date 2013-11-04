@@ -5474,7 +5474,7 @@ nav {
   overflow-y: hidden;
   margin-top: 0; }
 .sidebar .navlink > li {
-  margin-left: 0.625em; }
+  margin-left: 0.9375em; }
 .sidebar .navlink a {
   color: #b91e49;
   margin-top: -3.75em;
@@ -5490,8 +5490,7 @@ nav {
   text-transform: uppercase;
   display: inline-block; }
 .sidebar .navlink a:hover, .sidebar .navlink a:visited {
-  margin-top: 0.625em;
-  background: #cccccc; }
+  margin-top: 0.625em; }
 .sidebar .navlink a:active {
   color: #cccccc; }
 
@@ -5531,5 +5530,4 @@ footer {
   background-position: center; }
 
 .footer {
-  min-height: 0.625em;
-  background-color: #fff; }
+  min-height: 0; }

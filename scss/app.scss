@@ -226,7 +226,7 @@ nav {
   }
 
   .navlink > li {
-    margin-left:  emCalc(10);
+    margin-left:  emCalc(15);
   }
   .navlink a {
   color: $primary-color;
@@ -250,7 +250,7 @@ nav {
 
   .navlink a:hover, .navlink a:visited {
     margin-top: emCalc(10);
-        background: darken(#fff, 20%);
+        // background: darken(#fff, 20%);
   }
 
   .navlink a:active {
@@ -308,6 +308,5 @@ footer {
 }
 
 .footer {
-  min-height: emCalc(10);
-  background-color: #fff;
+  min-height: emCalc(0);
 }
